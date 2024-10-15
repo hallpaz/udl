@@ -268,15 +268,19 @@ $$
 
 # Shallow Network (S-Net)
 
-<!-- ![](img/snet.pdf) -->
+![h:400](img/snet.jpg)
 
 ---
 
 # Laplacian Network (L-Net)
 
+![h:400](img/lnet.jpg)
+
 ---
 
 # Modulated Network (M-Net)
+
+![h:400](img/mnet.jpg)
 
 ---
 
