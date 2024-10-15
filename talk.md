@@ -3,10 +3,21 @@ marp: true
 paginate: true
 math: mathjax
 ---
-<!-- _class: invert -->
-# Multiresolution Representation of Images using Neural Networks
 
-#### Understanding Deep Learning 2024
+<style>
+    section {
+        font-family: "Fira sans", Arial;
+    }
+    /* h1, h2 {
+        font-family: "Fira Mono", monospace;
+    } */
+</style>
+
+
+<!-- _class: invert -->
+# Multiresolution Representation of Images <br/> using Neural Networks
+
+#### Understanding Deep Learning 2024 - ICMC, USP
 
 ## Hallison Paz
 
@@ -250,6 +261,10 @@ $$
 Exemplo - imagem filtrada e subtraida
 
 ![](img/details.png)
+
+<!-- _backgroundColor: #000000-->
+
+<!-- _class: invert -->
 
 ---
 
