@@ -192,13 +192,18 @@ Instituto Militar de Engenharia
 
 ----
 
+
+----
+
 # Sinusoidal Layer
 
-$y = sin(Wx + b)$
+$y = \sin(Wx + b)$
 
 ## Sinusoidal MLP
 
-$y = sin(W_2(sin(W_1x + b_1)) + b_2)$
+$y = \sin(W_2(\sin(W_{11}x + b_{11}) + \sin(W_{12}x + b_{12})) + b_2)$
+
+![bg right fit](img/generated_frequencies.png)
 
 ----
 
