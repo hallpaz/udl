@@ -63,8 +63,8 @@ Instituto Militar de Engenharia
 ###### What do you mean by?
 # Multiresolution representation of images
 
-<video width="1200" height="800" controls>
-  <source src="img/multiresolution-masp.mp4" type="video/mp4">
+<video width="1102" height="400" controls>
+  <source src="img/continuous_scale.mov" type="video/mp4">
 </video>
 
 <!-- _class: inver -->
@@ -192,6 +192,16 @@ Instituto Militar de Engenharia
 
 ----
 
+# Sinusoidal Layer
+
+$y = sin(Wx + b)$
+
+## Sinusoidal MLP
+
+$y = sin(W_2(sin(W_1x + b_1)) + b_2)$
+
+----
+
 # Shallow Network - low frequencies
 
 ![](img/thesis-low-freqs.png)
@@ -258,13 +268,31 @@ $$
 
 ---
 
-Exemplo - imagem filtrada e subtraida
+Example: TOP: $\mathscr{g}_i$ | Bottom: $\mathscr{f}_i$
 
 ![](img/details.png)
+
+![](img/filtered-incremental.png)
 
 <!-- _backgroundColor: #000000-->
 
 <!-- _class: invert -->
+
+---
+
+
+**Contrast enhanced**: TOP: $\mathscr{g}_i$ | Bottom: $\mathscr{f}_i$
+
+<p align="right">
+  <img src="img/details-v2.png" alt="S-Net architecture" style="height:230px;"/>
+</p>
+
+![](img/filtered-incremental.png)
+
+<!-- _backgroundColor: #000000-->
+
+<!-- _class: invert -->
+
 
 ---
 
@@ -285,19 +313,44 @@ $$
 
 # Shallow Network (S-Net)
 
-![h:400](img/snet.jpg)
+<br/>
+
+<!-- <p align="center">
+
+![h:350](img/snet.jpg)
+
+</p> -->
+
+<p align="center">
+  <img src="img/snet.jpg" alt="S-Net architecture" style="height:350px;"/>
+</p>
 
 ---
 
 # Laplacian Network (L-Net)
 
-![h:400](img/lnet.jpg)
+<br/>
+
+<p align="center">
+  <img src="img/lnet.jpg" alt="S-Net architecture" style="height:350px;"/>
+</p>
 
 ---
 
 # Modulated Network (M-Net)
 
-![h:400](img/mnet.jpg)
+<br/>
+
+<p align="center">
+  <img src="img/mnet.jpg" alt="S-Net architecture" style="height:350px;"/>
+</p>
+
+
+---
+
+# Multiresolution Training
+
+
 
 ---
 
@@ -316,10 +369,9 @@ $$
 
 # Continuous Scale
 
-<!-- ![](img/WhatsApp%20Video%202023-08-30%20at%2008.36.38.mp4) -->
 
-<video width="1102" height="600" controls>
-  <source src="img/continuous_scale.mov" type="video/mp4">
+<video width="1200" height="800" controls>
+  <source src="img/multiresolution-masp.mp4" type="video/mp4">
 </video>
 
 ---
