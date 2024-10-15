@@ -4,7 +4,7 @@ paginate: true
 math: mathjax
 ---
 <!-- _class: invert -->
-# Multiresolution Represnetation of Images using Neural Networks
+# Multiresolution Representation of Images using Neural Networks
 
 #### Understanding Deep Learning 2024
 
