@@ -41,6 +41,7 @@ Instituto Militar de Engenharia
 
 - Co-founder
 @Programação Dinâmica
+@ALFORRIAH
 
 
 ![bg left](img/hallpaz_lion.png)
@@ -48,7 +49,9 @@ Instituto Militar de Engenharia
 ---
 <!-- _class: invert -->
 
-![bg ](img/pgdinamica.png)
+![bg fit](img/pgdinamica.png)
+
+<!-- _paginate: false -->
 
 ---
 # Codec Avatars
@@ -120,7 +123,7 @@ Instituto Militar de Engenharia
 
 ----
 
-# Let's fit an MLP to it!
+# Let's fit a MLP to it!
 
 
 ![bg right height:400px](img/masp.gif)
@@ -414,34 +417,32 @@ $$
 
 # Demo
 
-### [Training a MR-Net for images](https://github.com/hallpaz/nov23google/blob/main/code/representational_networks.ipynb)
-<a href="https://colab.research.google.com/github/hallpaz/nov23google/blob/main/code/representational_networks.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+### [Training a MR-Net for images](https://github.com/hallpaz/udl/blob/main/code/mr-imaging.ipynb)
+<a href="https://colab.research.google.com/github/hallpaz/udl/blob/main/code/mr-imaging.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-<!-- <table>
-  <tr>
-    <td> <img src="img/masp.gif"  alt="1" ></td>
-    <td><img src="img/fourier_masp.gif" alt="2"></td>
-    <td><img src="img/siren_masp.gif" alt="3"></td>
-   </tr> 
-</table> -->
+![](img/filtered-incremental.png)
 
 ---
 
-# There's more to it...
+# There's more to it!
 
 ![bg right:55% fit](img/siggraph-poster24.jpg)
 
 
-<!-- _footer: To know about follow-up work on material textures, please check [this Youtube video](https://www.youtube.com/live/voVBM6BYs8k?si=Zxj4gtWJe893uzuV&t=4225) or [this Siggraph Poster](). --> 
+<!-- _footer: To know about follow-up work on material textures, please check [this Youtube video](https://www.youtube.com/live/voVBM6BYs8k?si=Zxj4gtWJe893uzuV&t=4225) or [this Siggraph Poster](https://dl.acm.org/doi/10.1145/3641234.3671087). --> 
 
 ---
 # Thank you!
 
 #### Reach out:
 
-- hallpaz@impa.br
+- hallison@pgdinamica.com
 - [@pgdinamica](https://youtube.com/@pgdinamica) on Youtube
 - @hallpaz at social media
+
+<p align="center">
+  <img src="img/qrcode-page.png" alt="S-Net architecture" style="height:200px;"/>
+</p>
 
 ![bg right](img/hallpaz-no-siggraph.jpg)
 
@@ -453,10 +454,7 @@ $$
 # References:
 
 
-- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis. [Website](https://www.matthewtancik.com/nerf).
-- Occupancy Networks - Learning 3D Reconstruction in Function Space. [Website](https://github.com/autonomousvision/occupancy_networks).
-- DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation. [Github](https://github.com/facebookresearch/DeepSDF).
-- Implicit Neural Representations with Periodic Activation Functions. [Website](https://www.vincentsitzmann.com/siren/).
+- MR-Net: Multiresolution Sinusoidal Neural Networks. Hallison Paz, Daniel Perazzo, Tiago Novello, Guilherme Schardong, Luiz Schirmer, Vinicius da Silva, Daniel Yukimura, Fabio Chagas, Helio Lopes, and Luiz Velho. Computers & Graphics, 2023.
 - AI Graphics Theory and Practice. [IMPA Course](https://lvelho.impa.br/i3d23/).
 - The making of MR-Net and a vision for multiresolution media representation. [Visgraf Seminar](https://www.youtube.com/live/voVBM6BYs8k?si=lgOZT6BRh9eL8fz3).
 
@@ -464,6 +462,8 @@ $$
 
 # References
 
-- On the spectral bias of neural networks
-N Rahaman*, A Baratin*, D Arpit, F Draxler, M Lin, F Hamprecht, Y Bengio, ...
-International Conference on Machine Learning, 5301-5310
+- On the spectral bias of neural networks. N Rahaman*, A Baratin*, D Arpit, F Draxler, M Lin, F Hamprecht, Y Bengio, A Courville. International Conference on Machine Learning, 5301-5310.
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis. [Website](https://www.matthewtancik.com/nerf).
+- Occupancy Networks - Learning 3D Reconstruction in Function Space. [Website](https://github.com/autonomousvision/occupancy_networks).
+- DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation. [Github](https://github.com/facebookresearch/DeepSDF).
+- Implicit Neural Representations with Periodic Activation Functions. [Website](https://www.vincentsitzmann.com/siren/).

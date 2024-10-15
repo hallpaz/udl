@@ -42,7 +42,7 @@ max_epochs_per_stage: 1000
 batch_size: 256 * 128
 
 # Image
-data_path: ../data/masp.jpg
+data_path: data/masp.jpg
 width: 256
 height: 256
 channels: 3
