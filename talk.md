@@ -52,7 +52,11 @@ Instituto Militar de Engenharia
 ###### What do you mean by?
 # Multiresolution representation of images
 
-<a style="color:red">colocar uma imagem representativa</a>
+<video width="1200" height="800" controls>
+  <source src="img/multiresolution-masp.mp4" type="video/mp4">
+</video>
+
+<!-- _class: inver -->
 
 ----
 # Representational Networks
@@ -221,7 +225,7 @@ Instituto Militar de Engenharia
 
 - We decompose it into a sum of $N$ stages: 
 
-$$\mathscr{f}=\mathscr{g}_0+\dots+\mathscr{g}_{N-1}$$
+$$\mathscr{f}=\mathscr{g}_0 + \dots + \mathscr{g}_{N-1}$$
 , 
 <!-- where $\gt{g}_0$ captures the coarsest approximation of the signal and $\gt{g}_i$, for $i>0$, progressively introduces higher-frequency components.  -->
 - $\mathscr{g}_0$ representes the coarse features
@@ -233,7 +237,7 @@ $$\mathscr{f}=\mathscr{g}_0+\dots+\mathscr{g}_{N-1}$$
 The *level of detail* at stage $i$ is defined as:
 
 $$
-\mathscr{f}_i = \mathscr{g}_0 + \cdots + \gt{g}_i \quad \text{or} \quad \mathscr{f}_i = \mathscr{f} - \sum_{j=i+1}^{N-1} \mathscr{g}_j.
+\mathscr{f}_i = \mathscr{g}_0 + \cdots + \mathscr{g}_i \quad \text{or} \quad \mathscr{f}_i = \mathscr{f} - \sum_{j=i+1}^{N-1} \mathscr{g}_j.
 $$
 
 Each stage $\mathscr{g}_i$ is computed as:
