@@ -249,6 +249,8 @@ $$
 
 Exemplo - imagem filtrada e subtraida
 
+![](img/details.png)
+
 ---
 
 ## Multiresolution [Sinusoidal] Neural Networks (MR-Net)
