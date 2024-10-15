@@ -377,7 +377,7 @@ $$
 
 # Multiresolution Training
 
-
+![bg left:60% fit](img/mr-training-algorithm.png)
 
 ---
 
@@ -429,6 +429,8 @@ $$
 
 # There's more to it...
 
+![bg right:55% fit](img/siggraph-poster24.jpg)
+
 
 <!-- _footer: To know about follow-up work on material textures, please check [this Youtube video](https://www.youtube.com/live/voVBM6BYs8k?si=Zxj4gtWJe893uzuV&t=4225) or [this Siggraph Poster](). --> 
 
@@ -441,7 +443,10 @@ $$
 - [@pgdinamica](https://youtube.com/@pgdinamica) on Youtube
 - @hallpaz at social media
 
+![bg right](img/hallpaz-no-siggraph.jpg)
+
 <!-- _class: invert -->
+<!-- _paginate: false -->
 
 ----
 
