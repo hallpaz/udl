@@ -192,8 +192,23 @@ Instituto Militar de Engenharia
 
 ----
 
+![bg fit](img/sinusoidal-layer-meme.png)
+
+<!-- _paginate: false -->
+
+---
+
+# Composition of sines generates much higher frequencies
+
+![](img/generated_frequencies.png)
 
 ----
+
+![](img/paper-understanding-sinusoidal-nn.png)
+
+<!-- _footer: Check [this paper out](https://arxiv.org/abs/2212.01833) -->
+
+<!-- ----
 
 # Sinusoidal Layer
 
@@ -203,7 +218,14 @@ $y = \sin(Wx + b)$
 
 $y = \sin(W_2(\sin(W_{11}x + b_{11}) + \sin(W_{12}x + b_{12})) + b_2)$
 
-![bg right fit](img/generated_frequencies.png)
+![bg right fit](img/generated_frequencies.png) -->
+
+----
+
+# Let's do some experiments...
+
+<!-- _class: invert -->
+<!-- _paginate: false -->
 
 ----
 
